@@ -1,0 +1,24 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}

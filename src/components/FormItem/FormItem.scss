@@ -1,0 +1,37 @@
+.form-item {
+  position: relative;
+  width: 330px;
+  height: 35px;
+  &__input {
+    height: 100%;
+    width: 290px;
+    background-color: transparent;
+    border-style: none;
+    border: 0.3px solid #111c5a;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 40px;
+    &::placeholder {
+      color: rgba(17, 28, 90, 0.5);
+    }
+    &#name {
+      background-image: url("../../assets/images/icons/user.svg");
+      background-position: 15px;
+      background-repeat: no-repeat;
+    }
+    &#surname {
+      background-image: url("../../assets/images/icons/user.svg");
+      background-position: 15px;
+      background-repeat: no-repeat;
+    }
+    &#email {
+      background-image: url("../../assets/images/icons/email.svg");
+      background-position: 15px;
+      background-repeat: no-repeat;
+    }
+  }
+}
